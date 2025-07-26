@@ -54,11 +54,25 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 ## Hypothesis and how to validate?
 
-- List here your project hypothesis(es) and how you envision validating it (them).
+- Hypothesis one - A deep learning image classification model can distinguish between healthy leaves and those affected by mildew.
+- Hypothesis two - Automating the leaf diagnosis process will lead to reduced manual labour and overall time spent vs. human inspection
+- Hypothesis three - Model performance will generalise well across unseen data from the same crop type.
+
+- Hypothesis one - Using a labelled image dataset to train a convolutional neural network, evaluate the model with certain metrics; accuracy, precision, recall and F1 score on a held out test set.
+- Hypothesis two - Compare time taken by human inspection vs. model.
+- Hypothesis three - Validate with unseen test data.
 
 ## The rationale to map the business requirements to the Data Visualisations and ML tasks
 
-- List your business requirements and a rationale to map them to the Data Visualisations and ML tasks.
+Business Requirement:
+Visual Study:
+Conduct a visual study showing how a healthy cherry leaf differs from one infected with powdery mildew using data analysis and visualizations.
+
+Predictive System:
+Deliver a machine learning system capable of predicting whether a cherry leaf is healthy or infected, based on its image.
+
+Dashboard Delivery:
+The solution must be presented via a dashboard interface (not an API), designed for practical use by stakeholders.
 
 ## ML Business Case
 
@@ -66,8 +80,20 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 ## Dashboard Design
 
-- List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other items, that your dashboard library supports.
-- Finally, during the project development, you may revisit your dashboard plan to update a given feature (for example, at the beginning of the project, you were confident you would use a given plot to display an insight, but later, you chose another plot type).
+Page	Content
+1. Summary	Dataset overview, project goal, stakeholder needs
+
+2. Visual Study	Charts & visuals comparing healthy and mildew leaves
+
+3. Predictions	- Upload cherry leaf images (multiple)
+
+- Model returns prediction + probability per image
+- Table of results with download button
+
+4. Hypothesis	Stated project hypotheses + validation results
+
+5. Technical	Model type, training parameters, metrics, and charts (confusion matrix, accuracy graph)
+
 
 ## Unfixed Bugs
 
