@@ -3,3 +3,4 @@ README.md
 .gitpod.yml
 app_pages/__pycache__/*
 inputs/cherry-leaves/cherry-leaves
+*.pkl
