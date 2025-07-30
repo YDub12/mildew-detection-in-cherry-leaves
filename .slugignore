@@ -8,4 +8,10 @@ inputs/cherry-leaves/cherry-leaves/train/healthy
 inputs/cherry-leaves/cherry-leaves/train/powdery_mildew
 inputs/cherry-leaves/cherry-leaves/validation/healthy
 inputs/cherry-leaves/cherry-leaves/validation/powdery_mildew
-.pkl
+*.png
+!outputs/v1/avg_diff.png
+!outputs/v1/avg_var_healthy.png
+!outputs/v1/avg_var_powdery_mildew.png
+!outputs/v1/labels_distribution.png
+!outputs/v1/model_training_acc.png
+!outputs/v1/model_training_losses.png
