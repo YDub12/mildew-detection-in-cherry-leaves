@@ -2,3 +2,4 @@ README.md
 .gitpod.dockerfile
 .gitpod.yml
 app_pages/__pycache__/*
+inputs/cherry-leaves/cherry-leaves
