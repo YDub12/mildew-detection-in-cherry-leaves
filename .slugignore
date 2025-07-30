@@ -2,5 +2,9 @@ README.md
 .gitpod.dockerfile
 .gitpod.yml
 app_pages/__pycache__/*
-inputs/cherry-leaves/cherry-leaves
-*.pkl
+inputs/cherry-leaves/cherry-leaves/test/healthy
+inputs/cherry-leaves/cherry-leaves/test/powdery_mildew
+inputs/cherry-leaves/cherry-leaves/train/healthy
+inputs/cherry-leaves/cherry-leaves/train/powdery_mildew
+inputs/cherry-leaves/cherry-leaves/validation/healthy
+inputs/cherry-leaves/cherry-leaves/validation/powdery_mildew
