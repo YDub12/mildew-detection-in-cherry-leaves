@@ -1,0 +1,8 @@
+inputs/cherry-leaf-dataset/cherry-leaves/test/healthy/*
+inputs/cherry-leaf-dataset/cherry-leaves/test/powdery_mildew/*
+inputs/cherry-leaf-dataset/cherry-leaves/train/healthy/*
+inputs/cherry-leaf-dataset/cherry-leaves/train/powdery_mildew/*
+README.md
+.gitpod.dockerfile
+.gitpod.yml
+app_pages/__pycache__/*
