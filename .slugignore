@@ -1,5 +1,3 @@
-inputs/
-inputs/**
 README.md
 .gitpod.dockerfile
 .gitpod.yml
