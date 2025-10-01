@@ -12,7 +12,7 @@ You can safely delete the Template Instructions section of this README.md file a
 
 1. Use this template to create your GitHub project repo
 
-1. In your newly created repo click on the green Code button. 
+1. In your newly created repo click on the green Code button.
 
 1. Then, from the Codespaces tab, click Create codespace on main.
 
